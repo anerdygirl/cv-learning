@@ -1,0 +1,118 @@
+# Data directories
+/home/patat/Downloads/all/data/
+data/
+dataset/
+pykitti/
+chess2/
+
+# Results directory (optional - remove if you want to include results)
+results/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.bs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Results and output files
+results/
+*.png
+*.jpg
+*.jpeg
+*.tiff
+*.bmp
+*.disparity
+*.depth
+
+# Data files
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp 
+
+# extra notes
+condition for numDisparity.txt
