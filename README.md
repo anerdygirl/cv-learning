@@ -25,19 +25,6 @@ pip install opencv-python numpy
 
 ## Usage
 
-### Setup
-
-Set your dataset path as an environment variable:
-
-```bash
-export MIDDLEBURY_DATASET_PATH="/path/to/your/middlebury/dataset"
-```
-
-Or on Windows:
-```cmd
-set MIDDLEBURY_DATASET_PATH=C:\path\to\your\middlebury\dataset
-```
-
 ### Process a Single Scene
 
 ```bash
