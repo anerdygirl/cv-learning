@@ -3,6 +3,7 @@
 Simple script to process a specific scene from the Middlebury dataset
 Usage: python process_scene.py <scene_name>
 Example: python process_scene.py artroom1
+Same as stereosgbm.py except it's more command-line oritented
 """
 
 import cv2
@@ -22,7 +23,7 @@ def main():
         sys.exit(1)
     
     scene_name = sys.argv[1]
-    # Get dataset path from environment variable or use default
+    # Get dataset path from environment variable or use local
     dataset_path = os.getenv('MIDDLEBURY_DATASET_PATH', "/path/to/your/middlebury/dataset")
     
     # Check if scene exists
