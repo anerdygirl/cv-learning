@@ -95,7 +95,3 @@ The SGBM algorithm uses the following optimized parameters:
 - Images are loaded in grayscale for optimal performance
 - Disparity maps are normalized to 0-255 range for visualization
 - The `results/` directory is excluded from version control by default
-
-## License
-
-[Add your license information here] 
