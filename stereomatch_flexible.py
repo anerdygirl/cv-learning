@@ -6,14 +6,13 @@ Example usage for stereo matching with Middlebury dataset
 
 from os import path
 import cv2
-import os
 from stereomatch_all import process_stereo_pair, process_middlebury_dataset
 
 def example_single_scene():
     """Example: Process a single scene"""
     
     # Get dataset path from environment variable or use default
-    dataset_path = os.getenv('MIDDLEBURY_DATASET_PATH', "/path/to/your/middlebury/dataset")
+    dataset_path = "your/Middleblurry/dataset/path"
     scene_name = "chess2"  # or "chess1", "curule1", etc.
     
     # Constructing l/r imagepaths
@@ -43,7 +42,7 @@ def example_multiple_scenes():
     """Example: Process all scenes in the dataset"""
     
     # Get dataset path from environment variable or use default
-    dataset_path = os.getenv('MIDDLEBURY_DATASET_PATH', "/path/to/your/middlebury/dataset")
+    dataset_path = "your/Middleblurry/dataset/path"
     
     if path.exists(dataset_path):
         process_middlebury_dataset(dataset_path, "results")
@@ -72,7 +71,7 @@ if __name__ == "__main__":
     # Uncomment the example you want to run:
     
     # Example 1: Process a single scene
-    example_single_scene()
+    # example_single_scene()
     
     # Example 2: Process all scenes
     # example_multiple_scenes()
