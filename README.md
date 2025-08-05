@@ -24,22 +24,6 @@ pip install opencv-python numpy
 ```
 
 ## Usage
-## Usage
-
-### Process a Single Scene
-
-```bash
-python stereomatch_single_scene.py <scene_name>
-```
-
-Example:
-```bash
-python stereomatch_single_scene.py chess2
-```
-
-->
-
-## Usage
 
 ### Important for stereomatch_all.py:
 
