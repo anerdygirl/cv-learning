@@ -1,11 +1,14 @@
 # disparity map from stereo images using SGBM algorithm and middlebury dataset
+"""
+Pretty much same as stereomatch_single_scene.py except you have to manually set the scene here
+"""
 
 import cv2
 import numpy as np
 from os import path, makedirs
 
 # Define the path to your Middlebury dataset
-dataset_path = "/home/patat/Downloads/all/data"
+dataset_path = "/your/Middleblurry/dataset/path"
 scene_name = "artroom1"  # Change this to your scene name (e.g., "artroom1", "chess1", "curule1", etc.)
 
 # Construct paths to left and right images
